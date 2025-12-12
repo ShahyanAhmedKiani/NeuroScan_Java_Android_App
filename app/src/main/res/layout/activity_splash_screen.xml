@@ -6,73 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F8F8"
+    android:backgroundTint="#F9FAFA"
     tools:context=".SplashScreen"
     tools:ignore="ExtraText">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="720dp"
-        android:layout_height="920dp"
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splash"
-        tools:ignore="ContentDescription,VisualLintBounds" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintGuide_begin="396dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintGuide_begin="645dp" />
-
-    <TextView
-        android:id="@+id/SplashAppName"
-        android:layout_width="280dp"
-        android:layout_height="92dp"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="100dp"
-        android:bufferType="normal"
-        android:fontFamily="sans-serif-condensed"
-        android:freezesText="false"
-        android:shadowColor="#FF5500"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="14"
-        android:text="NeuroScan"
-        android:textColor="#00F2FF"
-        android:textSize="60sp"
-        android:textStyle="bold"
-        android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        app:layout_constraintEnd_toStartOf="@+id/guideline10"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline7"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="1.0"
-        app:layout_editor_absoluteY="470dp"
-        tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="63dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="450dp"
-        tools:ignore="VisualLintBounds" />
-
+        app:srcCompat="@drawable/loog" />
 </androidx.constraintlayout.widget.ConstraintLayout>
